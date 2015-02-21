@@ -1,0 +1,14 @@
+{
+  "name": "simple-mailer",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "express": "~4.9.0",
+    "mongodb": "^1.4.26",
+    "mongoose": "^3.8.21",
+    "nconf": "^0.7.1",
+    "q": "^1.1.2",
+    "winston": "^0.8.3"
+  }
+}
