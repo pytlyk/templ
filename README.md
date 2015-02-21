@@ -1,7 +1,3 @@
 # templ
 
-I love Loshadki, becose i am viking. I love loshadkiiiiiiiiiiiiiiiiiiiiiiiiiiiiii,
-
-mariana
-
-i love loshadki
+Dont see, it very bad code.
