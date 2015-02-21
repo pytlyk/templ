@@ -13,6 +13,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/', router);
 
+
+var data = [];
+
+app.get('/getTask', function (req, res){
+	res.send(data).end(200);
+});
+
+app.post('/saveTask', function (req, res){
+	var task = req.body;
+	data.push(task);
+	res.end();
+});
+
 app.use(function(req, res, next){
     res.status(404).send('Sorry, this page not found.');
     log.debug('Not found URL: %s',req.url);
